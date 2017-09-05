@@ -1,0 +1,15 @@
+'context-menu':
+    'atom-text-editor': [
+        {
+            'label': 'Toggle Structure View'
+            'command': 'structure-view:toggle'
+        }
+    ]
+'menu': [
+    {
+        'label': "View"
+        'submenu': [
+            {'label': 'Toggle Structure View', 'command': 'structure-view:toggle'}
+        ]
+    }
+]

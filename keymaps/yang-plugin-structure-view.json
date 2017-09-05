@@ -1,0 +1,5 @@
+{
+    "atom-workspace": {
+        "ctrl-o": "structure-view:toggle"
+    }
+}
