@@ -18,7 +18,7 @@
     "jquery": "^3.2.1",
     "jsctags": "latest",
     "lodash": "^4.17.4",
-    "vue": "^1.0.28-csp"
+    "vue": "1.0.27-csp"
   },
   "activationCommands": {
     "atom-workspace": [
