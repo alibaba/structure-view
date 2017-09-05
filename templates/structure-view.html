@@ -1,6 +1,6 @@
 <div class='yang-plugin-structure-view'>
-    <div class="no-file-hint" v-show="noTagHint"><pre>{{noTagHint}}</pre></div>
-    <div class="tree-panel" v-show="!noTagHint">
+    <div class="no-file-hint" v-if="noTagHint"><pre>{{noTagHint}}</pre></div>
+    <div class="tree-panel" v-else>
         <ol class="full-menu list-tree has-collapsable-children" v-on:click="onToggleTreeNode">
         </ol>
     </div>
