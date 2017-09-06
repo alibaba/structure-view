@@ -61,13 +61,13 @@ apm install structure-view
 
 You can find all these commands by [`Command Palette`](http://flight-manual.atom.io/getting-started/sections/atom-basics/).
 
-- `Yang Structure View: Hide`
-- `Yang Structure View: Show`
-- `Yang Structure View: Toggle`
+- `Structure View: Hide`
+- `Structure View: Show`
+- `Structure View: Toggle`
 
 #### Shortcut
 
-- `Ctrl-o` : `Yang Structure View: Toggle`
+- `Ctrl-o` : `Structure View: Toggle`
 
 
 
