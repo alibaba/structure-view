@@ -12,12 +12,12 @@
 --langmap=Css:.css
 --langmap=Css:+.less
 --langmap=Css:+.scss
---regex-Css=/^[ \t]*(.+)[ \t]*\{/\1/f,function/
---regex-Css=/^[ \t]*(.+)[ \t]*,[ \t]*$/\1/f,function/
+--regex-Css=/^[ \t]*(.+)[ \t]*\{/\1/f,selector/
+--regex-Css=/^[ \t]*(.+)[ \t]*,[ \t]*$/\1/f,selector/
 
 --langdef=Sass
 --langmap=Sass:.sass
---regex-Sass=/^[ \t]*([#.]*[a-zA-Z_0-9]+)[ \t]*$/\1/f,function/
+--regex-Sass=/^[ \t]*([#.]*[a-zA-Z_0-9]+)[ \t]*$/\1/f,selector/
 
 --langdef=Yaml
 --langmap=Yaml:.yaml
@@ -35,18 +35,18 @@
 --langmap=Markdown:+.mkd
 --langmap=Markdown:+.mkdown
 --langmap=Markdown:+.ron
---regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,function/
+--regex-Markdown=/^#+[ \t]*([^#]+)/\1/f,member/
 
 --langdef=Json
 --langmap=Json:.json
---regex-Json=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,function/
+--regex-Json=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,member/
 
 --langdef=Cson
 --langmap=Cson:.cson
 --langmap=Cson:+.gyp
---regex-Cson=/^[ \t]*'([^']+)'[ \t]*\:/\1/f,function/
---regex-Cson=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,function/
---regex-Cson=/^[ \t]*([^'"]+)[ \t]*\:/\1/f,function/
+--regex-Cson=/^[ \t]*'([^']+)'[ \t]*\:/\1/f,member/
+--regex-Cson=/^[ \t]*"([^"]+)"[ \t]*\:/\1/f,member/
+--regex-Cson=/^[ \t]*([^'"]+)[ \t]*\:/\1/f,member/
 
 --langmap=C++:+.mm
 
