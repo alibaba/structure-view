@@ -17,6 +17,9 @@
 | New icon for tree node                   | High     | Done    |
 | Auto detect and toggle view when pane changed | High     | Done    |
 | Auto scroll from source                  | Medium   | Done    |
+| Support for inline JS, CSS               | High     | Planned |
+| Professional support for Python          | High     | Planned |
+| Professional support for C/C++           | High     | Planned |
 | Filter for symbol quick search           | Medium   | Planned |
 | Expand all                               | Medium   | Planned |
 | Collapse all                             | Medium   | Planned |
