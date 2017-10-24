@@ -1,7 +1,7 @@
 {
   "name": "structure-view",
   "main": "./lib/main",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Structure View for ATOM, just like Outline view in Eclipse or Structure tool window in IDEA / WebStorm, provides quick navigation for symbols of source code with a tree view.",
   "repository": {
     "type": "git",
