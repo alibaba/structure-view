@@ -3,7 +3,7 @@ Structure View for [ATOM](https://atom.io/) editor, just like Outline view in Ec
 
 ![demo](https://user-images.githubusercontent.com/8896124/30044182-61ee94c6-922e-11e7-8181-10122681a1d9.gif)
 
-*Only tested on Atom v1.17, v1.19 yet. Please help this tool works well on more versions of Atom.*
+*Pull requests are welcomed! Raise an issue [here](https://github.com/alibaba/structure-view/issues) if you have any question.*
 
 ## Table of Contents
 
