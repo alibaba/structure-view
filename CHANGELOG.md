@@ -1,5 +1,9 @@
 ### v0.1.6 (2017.11.05)
 
+- Fix parsing error for script tag with no child.
+
+### v0.1.6 (2017.11.05)
+
 - See [#2](https://github.com/alibaba/structure-view/issues/2). Support inline Javascript parsing in HTML.
 - Fix line jump error when target row is folded.
 
