@@ -1,4 +1,9 @@
-### v0.1.6 (2017.11.05)
+### v0.1.8 (2017.11.20)
+
+- Add settings to hide variables and properties for cleaner tree and easier navigation.
+- Fix structure view auto toggle problem: SV should not show up when it's hidden before and active pane is switched from non-editor item (such as `Settings`) to an editor.
+
+### v0.1.7 (2017.11.05)
 
 - Fix parsing error for script tag with no child.
 
