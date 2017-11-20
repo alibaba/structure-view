@@ -33,7 +33,19 @@
       "description": "Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor.",
       "type": "boolean",
       "default": false
-    }
+    },
+    "ShowVariables": {
+      "title": "Show Variables",
+      "description": "Show Variables",
+      "type": "boolean",
+      "default": true
+    },
+    "ShowProperties": {
+      "title": "Show Properties",
+      "description": "Show Properties",
+      "type": "boolean",
+      "default": true
+    }    
   },
   "keywords": [
     "taglist",
