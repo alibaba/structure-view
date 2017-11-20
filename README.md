@@ -73,8 +73,6 @@ You can find all these commands by [`Command Palette`](http://flight-manual.atom
 
 ## Icon alphabet meaning
 
-- `U` : Unknown
-
 ##### HTML
 
 - `<>` : Element
@@ -90,7 +88,11 @@ You can find all these commands by [`Command Palette`](http://flight-manual.atom
 - `I` : Import
 - `F` : Function
 - `M` : Method
-- `V`: Variable
+- `V` : Variable
+
+#### Others
+
+- `U` : Unknown
 
 
 

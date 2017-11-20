@@ -1,7 +1,7 @@
 <div class='structure-view'>
   <div class="no-file-hint" v-show="noTagHint"><pre>{{noTagHint}}</pre></div>
   <div class="tree-panel" v-show="!noTagHint">
-    <ol class="full-menu list-tree has-collapsable-children" @click="onToggleTreeNode">
+    <ol class="full-menu list-tree has-collapsable-children" @click="onSelectTreeNode" @dblclick="onToggleTreeNode">
     </ol>
   </div>
   <div class="mask">
