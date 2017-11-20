@@ -28,24 +28,24 @@
     ]
   },
   "configSchema": {
-    "AutoscrollFromSource": {
-      "title": "Autoscroll from Source",
-      "description": "Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor.",
-      "type": "boolean",
-      "default": false
-    },
     "ShowVariables": {
       "title": "Show Variables",
-      "description": "Show Variables",
+      "description": "If you don't need variables in the structure of file, just uncheck this config.",
       "type": "boolean",
       "default": true
     },
     "ShowProperties": {
       "title": "Show Properties",
-      "description": "Show Properties",
+      "description": "If you don't need properties in the structure of file (such as CSS), just uncheck this config.",
       "type": "boolean",
       "default": true
-    }    
+    },
+    "AutoscrollFromSource": {
+      "title": "Autoscroll from Source (Beta)",
+      "description": "Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor.",
+      "type": "boolean",
+      "default": false
+    }
   },
   "keywords": [
     "taglist",
