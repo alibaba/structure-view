@@ -60,14 +60,22 @@ You can find all these commands by [`Command Palette`](http://flight-manual.atom
 
 - `Ctrl-o` : `Structure View: Toggle`
 
+#### Operations
+
+- Single click: navigation of tag
+- Double click: collapse/expand the tree of selected tag
+
 
 
 
 ## Settings
 
-| Feature                | Description                              | Default |
-| ---------------------- | ---------------------------------------- | ------- |
-| Autoscroll from Source | Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor. | False   |
+| Feature                        | Description                              | Default |
+| ------------------------------ | ---------------------------------------- | ------- |
+| Show Variables                 | If you don't need variables in the structure of file, just uncheck this config. | true    |
+| Show Properties                | If you don't need properties in the structure of file (such as CSS), just uncheck this config. | true    |
+| Double Click To Fold Tree View | If this value is false, then select tag and toggle the tree view would all by single click. | true    |
+| Autoscroll from Source (Beta)  | Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor. | false   |
 
 
 

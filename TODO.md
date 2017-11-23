@@ -3,30 +3,39 @@
 ## Feature Baseline
 ------
 
-| Item                                     | Priority | Status  |
-| ---------------------------------------- | -------- | ------- |
-| Show basic variable types, class, function, reference in tree view | High     | Done    |
-| Node format: [symbol name] : [symbol type/value/class] | High     | Done    |
-| Auto scroll to source                    | High     | Done    |
-| Auto refresh tree view                   | High     | Done    |
-| Universal parser for popular language    | High     | Done    |
-| Professional suppor for HTML             | High     | Done    |
-| Professional suppor for CSS              | High     | Done    |
-| Professional suppor for Javascript       | High     | Done    |
-| Warning when no symbol or no editor opened | High     | Done    |
-| New icon for tree node                   | High     | Done    |
-| Auto detect and toggle view when pane changed | High     | Done    |
-| Auto scroll from source                  | Medium   | Done    |
-| Support for inline JS, CSS               | High     | Planned |
-| Professional support for Python          | High     | Planned |
-| Professional support for C/C++           | High     | Planned |
-| Filter for symbol quick search           | Medium   | Planned |
-| Expand all                               | Medium   | Planned |
-| Collapse all                             | Medium   | Planned |
-| Professional suppor for Less / Sass / Stylus | Medium   | Planned |
-| Professional suppor for JSX / Jade       | Medium   | Planned |
-| Sorting tree node by a to z              | Low      | Planned |
-| Sorting tree node by symbol type         | Low      | Planned |
+### Done
+
+| Item                                     | Priority |
+| ---------------------------------------- | -------- |
+| Show basic variable types, class, function, reference in tree view | High     |
+| Node format: [symbol name] : [symbol type/value/class] | High     |
+| Auto scroll to source                    | High     |
+| Auto refresh tree view                   | High     |
+| Universal parser for popular language    | High     |
+| Professional suppor for HTML             | High     |
+| Professional suppor for CSS              | High     |
+| Professional suppor for Javascript       | High     |
+| Warning when no symbol or no editor opened | High     |
+| New icon for tree node                   | High     |
+| Auto detect and toggle view when pane changed | High     |
+| Auto scroll from source                  | Medium   |
+| Support for inline JS                    | High     |
+| Expand all                               | Medium   |
+| Collapse all                             | Medium   |
+
+### Planned
+
+| Item                                     | Priority |
+| ---------------------------------------- | -------- |
+| Support for inline CSS                   | High     |
+| Professional support for Python          | High     |
+| Professional support for C/C++           | High     |
+| Professional support for TypeScript      | High     |
+| Filter for symbol quick search           | Medium   |
+| Professional suppor for Less / Sass / Stylus | Medium   |
+| Professional suppor for JSX / Jade       | Medium   |
+| Sorting tree node by a to z              | Low      |
+| Sorting tree node by symbol type         | Low      |
 
 
 
