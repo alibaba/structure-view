@@ -40,6 +40,12 @@
       "type": "boolean",
       "default": true
     },
+    "DoubleClickToFoldTreeView": {
+      "title": "Double Click To Fold Tree View",
+      "description": "If this value is false, then select tag and toggle the tree view would all by single click.",
+      "type": "boolean",
+      "default": true
+    },
     "AutoscrollFromSource": {
       "title": "Autoscroll from Source (Beta)",
       "description": "Enable this feature to have Atom automatically move the focus in the Structure View to the node that corresponds to the code where the cursor is currently positioned in the editor.",
