@@ -1,6 +1,8 @@
 ## v0.2.0 (2017.11.23)
 
 - New toolbox section is provided with four shortcut buttons.
+- Fix [#11](https://github.com/alibaba/structure-view/issues/11). Support export class/function expression.
+- Fix tag name of 'export default' pattern from 'exports' to 'export default'.
 - Change trigger event for folding tree view to double click by default (See [#13](https://github.com/alibaba/structure-view/issues/13)), and make this behavior configurable.
 
 ### v0.1.8 (2017.11.20)
