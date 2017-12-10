@@ -58,6 +58,8 @@
     "tagbar",
     "symbols",
     "structure",
-    "outline"
+    "outline",
+    "navigation",
+    "ctags"
   ]
 }

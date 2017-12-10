@@ -1,3 +1,7 @@
+### v0.2.1 (2017.12.11)
+
+- Avoid parsing error when using export of format `export { A, B }`.
+
 ## v0.2.0 (2017.11.23)
 
 - New toolbox section is provided with four shortcut buttons.
