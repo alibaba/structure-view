@@ -51,6 +51,8 @@
 --langmap=C++:+.mm
 
 --langmap=Ruby:+(Rakefile)
+--regex-Ruby=/^[ \t]*describe[ \t]*['":]?([^'"]*)['"]?[ \t]*do/\1/d,describe/
+--regex-Ruby=/^[ \t]*context[ \t]*['":]?([^'"]*)['"]?[ \t]*do/\1/c,context/
 
 --langmap=Php:+.module
 
