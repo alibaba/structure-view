@@ -1,0 +1,53 @@
+{
+  # Install related eslint pkgs as dev dependency first
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    # "plugin:react/recommended"
+  ],
+  "globals": {
+    # For unit test
+    "it": true,
+    "describe": true,
+
+    # Fro Structure-View
+    "atom": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  # Error level:
+  # 0: no error
+  # 1: warning
+  # 2: error
+  "rules": {
+    "strict": "off",
+
+    "no-empty": [0],
+    "no-console": [0],
+    "no-case-declarations": [1],
+    "no-unused-vars": [1, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-redeclare": [2, {"builtinGlobals": true}],
+
+    # "react/no-find-dom-node": [0],
+    # "react/display-name": [0],
+    # "react/prop-types": [0],
+    # "react/require-default-props": [0],
+    # "react/forbid-prop-types": [0],
+    # "react/no-array-index-key": [0],
+    # "react/jsx-indent": [1],
+    # "react/jsx-indent-props": [1],
+    # "react/jsx-tag-spacing": [1],
+    # "react/jsx-first-prop-new-line": [1],
+    # "react/jsx-max-props-per-line": [1],
+    # "react/jsx-closing-bracket-location": [1],
+    # "react/sort-comp": [1],
+    # "react/jsx-wrap-multilines": [1],
+    # "react/self-closing-comp": [1],
+    # "react/jsx-curly-spacing": [1],
+    # "react/no-did-mount-set-state": [1]
+  }
+}

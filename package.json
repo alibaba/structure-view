@@ -61,5 +61,9 @@
     "outline",
     "navigation",
     "ctags"
-  ]
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1"
+  }
 }
