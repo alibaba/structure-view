@@ -42,7 +42,7 @@ apm install structure-view
 | HTML       | `.html` , `.njk` , `.xtpl` , ...         | [htmlparser2](https://github.com/fb55/htmlparser2) |
 | CSS        | `.css`                                   | [css](https://github.com/reworkcss/css)  |
 | Javascript | `.js`                                    | [esprima](http://esprima.org/) / [jsctags](https://github.com/ramitos/jsctags) |
-| Others     | `.coffe` , `.less` , `.scss` , `.sass` , `.yaml` , `.yml` , `.md` , `.markdown` , `.mdown` , `.mkd` , `.mkdown` , `.ron` , `.json` , `.cson` , `.gyp` , `.c` , `.cpp` , `.mm` , `.rb` , `.php` , `.module` , `.go` , `.pl` , `.pod` , `.es6` , `.jsx` , `.es` , `.hx` , `.nim` , `.rs` , `.lc` , `.livecodescript` , `.irev` , `.sql` , `.bdy` , `.spc` , `.pls` , `plb` , `.ddl` , `.pks` , `.pkb` , `.sce` , `.sci` , `.m` , `.kla` , `.ini` | [ctags](http://ctags.sourceforge.net/)   |
+| Others     | `.coffe` , `.less` , `.scss` , `.sass` , `.yaml` , `.yml` , `.md` , `.markdown` , `.mdown` , `.mkd` , `.mkdown` , `.ron` , `.json` , `.cson` , `.gyp` , `.c` , `.cpp` , `.mm` , `.py`, `.rb` , `.php` , `.module` , `.go` , `.pl` , `.pod` , `.es6` , `.jsx` , `.es` , `.hx` , `.nim` , `.rs` , `.lc` , `.livecodescript` , `.irev` , `.sql` , `.bdy` , `.spc` , `.pls` , `plb` , `.ddl` , `.pks` , `.pkb` , `.sce` , `.sci` , `.m` , `.kla` , `.ini` | [ctags](http://ctags.sourceforge.net/)   |
 
 
 
