@@ -20,14 +20,13 @@
     "lodash": "^4.17.10",
     "vue": "1.0.27-csp"
   },
-  "activationCommands": {
-    "atom-workspace": [
-      "structure-view:toggle",
-      "structure-view:show",
-      "structure-view:hide"
-    ]
-  },
   "configSchema": {
+    "ShowOnStartup": {
+      "title": "Show On Startup",
+      "description": "Show the Stucture View on startup.",
+      "type": "boolean",
+      "default": false
+    },
     "ShowVariables": {
       "title": "Show Variables",
       "description": "If you don't need variables in the structure of file, just uncheck this config.",
